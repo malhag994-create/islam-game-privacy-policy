@@ -5,64 +5,73 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Block Sush — Delete your account and data</title>
 <style>
-  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;max-width:680px;margin:32px auto;padding:0 16px;line-height:1.7;color:#1b1b2f;background:#fff}
-  h1{font-size:24px;margin-bottom:4px}
-  h2{font-size:18px;margin-top:26px}
-  p,li{font-size:16px}
-  .note{color:#555;font-size:14px}
-  hr{margin:40px 0;border:0;border-top:1px solid #ddd}
-  [dir=rtl]{text-align:right}
+  body{font-family:-apple-system,Segoe UI,Roboto,sans-serif; max-width:720px; margin:40px auto; padding:0 20px; line-height:1.7; color:#222; background:#fafafa;}
+  h1{font-size:26px;} h2{font-size:19px; margin-top:32px;}
+  p,li{color:#444;}
+  a{color:#5b47e0;}
+  ul{padding-inline-start:22px;}
+  .ar{direction:rtl; text-align:right; font-family:"Segoe UI",Tahoma,"Noto Naskh Arabic",Arial,sans-serif;}
+  hr{margin:48px 0; border:0; border-top:1px solid #ddd;}
+  nav a{margin-inline-end:14px;}
 </style>
 </head>
 <body>
+<nav><a href="#en">English</a><a href="#ar">العربية</a><a href="index.html">Privacy Policy</a></nav>
 
-<section lang="en">
-  <h1>Block Sush — Delete your account and data</h1>
-  <p class="note">App: Block Sush (com.blocksush.app)</p>
+<div id="en">
+<h1>Block Sush — Delete your account and data</h1>
+<p>This page explains how to delete your Block Sush account and the data connected to it. You do not need to reinstall the Game to ask for deletion.</p>
 
-  <h2>Option 1 — inside the game</h2>
-  <ul>
-    <li><b>Delete Account</b>: open <b>Settings</b>, then tap <b>Delete</b> next to <b>Delete Account</b> (shown while you are signed in with Google) and confirm.</li>
-    <li><b>Delete My Data</b>: open <b>Settings</b>, then tap <b>Delete</b> next to <b>Delete My Data</b> and confirm. This erases all game progress saved on your device.</li>
-  </ul>
+<h2>Option 1 — In the app (fastest)</h2>
+<ol>
+<li>Open Block Sush and go to <strong>Settings</strong>.</li>
+<li>To permanently delete your account, tap <strong>Delete Account</strong> (shown when you are signed in) and confirm. This deletes your account (name, email, user ID) and your cloud-saved progress.</li>
+<li>To erase only your game progress on the device and in your cloud save, tap <strong>Delete My Data</strong> and confirm.</li>
+</ol>
 
-  <h2>Option 2 — by email</h2>
-  <p>If you can no longer open the game, email <a href="mailto:yousefalhag67@gmail.com?subject=Delete%20my%20account%20-%20Block%20Sush">yousefalhag67@gmail.com</a> from the address of the Google account you used, with the subject "Delete my account - Block Sush". We will delete your account and reply to confirm.</p>
+<h2>Option 2 — By email (if you cannot open the app)</h2>
+<p>Send an email to <a href="mailto:yousefalhag67@gmail.com">yousefalhag67@gmail.com</a> with the subject <strong>"Delete my Block Sush account"</strong>, from the email address of the Google account you used to sign in. We will delete your account and cloud-saved progress as soon as possible and within 30 days, and confirm by email.</p>
 
-  <h2>What is deleted</h2>
-  <ul>
-    <li>Your account in our sign-in service (Firebase Authentication): Google sign-in link, name, email address, profile picture and user ID.</li>
-    <li>Game progress (score, coins, achievements, statistics, settings) is stored only on your device. It is removed with "Delete My Data" or by uninstalling the game.</li>
-  </ul>
-
-  <h2>What is not covered</h2>
-  <p>Advertising data handled by Google AdMob and purchase records handled by Google Play are managed by Google under Google's own policies and are not stored by us.</p>
-</section>
+<h2>What is deleted</h2>
+<ul>
+<li>Your account details held by Firebase Authentication: name, email address, profile picture and user ID.</li>
+<li>Your cloud-saved game progress held in Firebase Firestore.</li>
+</ul>
+<h2>What is not deleted by us</h2>
+<ul>
+<li>Data stored only on your device: delete it with "Delete My Data" or by uninstalling the Game.</li>
+<li>Purchase records kept by Google Play under Google's own policies. We never receive your payment details.</li>
+<li>Data collected by Google AdMob for advertising is governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>; you can reset your advertising ID in Android settings.</li>
+</ul>
+</div>
 
 <hr>
 
-<section lang="ar" dir="rtl">
-  <h1>بلوك سوش — حذف حسابك وبياناتك</h1>
-  <p class="note">التطبيق: بلوك سوش (com.blocksush.app)</p>
+<div id="ar" class="ar" dir="rtl" lang="ar">
+<h1>بلوك سوش — حذف حسابك وبياناتك</h1>
+<p>توضح هذه الصفحة كيف تحذف حسابك في بلوك سوش والبيانات المرتبطة به. لا تحتاج إلى إعادة تثبيت اللعبة لطلب الحذف.</p>
 
-  <h2>الخيار الأول — من داخل اللعبة</h2>
-  <ul>
-    <li><b>حذف الحساب</b>: افتح <b>الإعدادات</b> ثم اضغط <b>حذف</b> بجانب <b>حذف الحساب</b> (يظهر عندما تكون مسجّلًا بحساب جوجل) وأكّد.</li>
-    <li><b>حذف بياناتي</b>: افتح <b>الإعدادات</b> ثم اضغط <b>حذف</b> بجانب <b>حذف بياناتي</b> وأكّد. يمسح هذا كل تقدّمك المحفوظ على جهازك.</li>
-  </ul>
+<h2>الخيار الأول — من داخل التطبيق (الأسرع)</h2>
+<ol>
+<li>افتح بلوك سوش واذهب إلى <strong>الإعدادات</strong>.</li>
+<li>لحذف حسابك نهائيًا اضغط <strong>حذف الحساب</strong> (يظهر عند تسجيل الدخول) وأكّد. يحذف هذا حسابك (الاسم والبريد ومعرّف المستخدم) وتقدّمك المحفوظ سحابيًا.</li>
+<li>لمسح تقدّمك في اللعبة فقط من جهازك ومن نسختك السحابية اضغط <strong>حذف بياناتي</strong> وأكّد.</li>
+</ol>
 
-  <h2>الخيار الثاني — بالبريد الإلكتروني</h2>
-  <p>إذا لم تعد تستطيع فتح اللعبة، راسلنا على <a href="mailto:yousefalhag67@gmail.com?subject=Delete%20my%20account%20-%20Block%20Sush">yousefalhag67@gmail.com</a> من بريد حساب جوجل الذي استخدمته، وبعنوان "Delete my account - Block Sush". سنحذف حسابك ونرد عليك للتأكيد.</p>
+<h2>الخيار الثاني — بالبريد الإلكتروني (إذا تعذّر فتح التطبيق)</h2>
+<p>أرسل رسالة إلى <a href="mailto:yousefalhag67@gmail.com">yousefalhag67@gmail.com</a> بعنوان <strong>"حذف حسابي في Block Sush"</strong> من البريد الإلكتروني لحساب جوجل الذي سجّلت به الدخول. سنحذف حسابك وتقدّمك المحفوظ سحابيًا في أسرع وقت ممكن وخلال 30 يومًا، ونؤكد لك بالبريد.</p>
 
-  <h2>ما الذي يُحذف</h2>
-  <ul>
-    <li>حسابك في خدمة تسجيل الدخول (Firebase Authentication): ربط تسجيل جوجل والاسم والبريد الإلكتروني وصورة الملف الشخصي ومعرّف المستخدم.</li>
-    <li>تقدّمك في اللعبة (النتيجة والعملات والإنجازات والإحصائيات والإعدادات) محفوظ على جهازك فقط، ويُمسح بـ«حذف بياناتي» أو بإزالة اللعبة.</li>
-  </ul>
-
-  <h2>ما لا يشمله ذلك</h2>
-  <p>بيانات الإعلانات التي يعالجها Google AdMob وسجلات الشراء التي يعالجها Google Play تديرها جوجل وفق سياساتها، ونحن لا نخزّنها.</p>
-</section>
-
+<h2>ما الذي يُحذف</h2>
+<ul>
+<li>بيانات حسابك لدى Firebase Authentication: الاسم والبريد الإلكتروني وصورة الملف الشخصي ومعرّف المستخدم.</li>
+<li>تقدّمك المحفوظ سحابيًا في Firebase Firestore.</li>
+</ul>
+<h2>ما الذي لا نحذفه نحن</h2>
+<ul>
+<li>البيانات المخزّنة على جهازك فقط: احذفها بـ«حذف بياناتي» أو بإلغاء تثبيت اللعبة.</li>
+<li>سجلات الشراء التي تحتفظ بها Google Play وفق سياساتها. نحن لا نستلم تفاصيل الدفع أبدًا.</li>
+<li>البيانات التي يجمعها Google AdMob للإعلانات تخضع لـ<a href="https://policies.google.com/privacy">سياسة خصوصية جوجل</a>، ويمكنك إعادة تعيين معرّف الإعلانات من إعدادات أندرويد.</li>
+</ul>
+</div>
 </body>
 </html>
